@@ -46,7 +46,7 @@ const HowItWorks = () => {
                 </div>
 
                 <div className="mt-10 md:mt-20 mb-14">
-                    <div className="relative h-full flex-center">
+                    <div className="relative h-full flex-center max-w-6xl mx-auto">
                         <div className="overflow-hidden">
                             <img
                                 src={frameImg}
