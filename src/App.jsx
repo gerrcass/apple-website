@@ -4,8 +4,9 @@ import Hightlights from "./components/Hightlights"
 import Model from "./components/Model"
 import Features from "./components/Features"
 import HowItWorks from "./components/HowItWorks"
+import Footer from "./components/Footer"
 
-//import * as Sentry from '@sentry/react'
+// import * as Sentry from '@sentry/react';
 
 const App = () => {
 
@@ -20,9 +21,10 @@ const App = () => {
       <Model />
       <Features />
       <HowItWorks />
+      <Footer />
     </main>
   )
 }
 
 export default App
-// export default Sentry.withProfiler(App)
+// export default Sentry.withProfiler(App);
